@@ -1,3 +1,8 @@
 export default function Main(params) {
-  return <div className="main">main</div>;
+  const displaynumero = params.displaynumero;
+  return (
+    <div className="main" displaynumero={{}}>
+      {displaynumero}
+    </div>
+  );
 }

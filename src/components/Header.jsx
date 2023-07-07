@@ -1,3 +1,8 @@
 export default function Header(params) {
-  return <div className="header">header</div>;
+  const headertype = params.headertype;
+  return (
+    <div className="header" headertype={headertype}>
+      {headertype}
+    </div>
+  );
 }
